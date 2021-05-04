@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title> - Machine Learning - </title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="./static/assets/css/main.css" />
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="shortcut icon" href="{{ url_for('static',filename='favicon.ico') }}" >
+		<noscript><link rel="stylesheet" href="./static/assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>SENTIMENT ANALYSING WEBSITE</h1>
+<!--						<p>Security Chief &nbsp;&bull;&nbsp; Cyborg &nbsp;&bull;&nbsp; Never asked for this</p>-->
+						<br>
+						<hr>
+						<br>
+						<nav>
+								<form action="submit_form" method="post">
+									 <input class="fname" name="username" type="text"  placeholder="Enter Username"  size="40" style="background: transparent" height="40">
+<!--									  <a type="submit" style="" ><font face = "Ink Free" size = "5">LOG IN</font></a>-->
+									<br><br>
+									<button type="submit" style=""><font face = "Ink Free" size = "5" style="color: white;" >LOG IN</font></button>
+								</form>
+							<ul>
+								<li></li>
+<!--								<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>-->
+<!--								<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>-->
+<!--								<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>-->
+<!--								<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>-->
+							</ul>
+						</nav>
+					</header>
+				<!-- Footer -->
+					<footer id="footer">
+						<p><font face = "Comic Sans MS" size = "4.5">MuraliKrishnan &nbsp;&bull;&nbsp; LokiReddy Vishnu &nbsp;&bull;&nbsp;Prasanna</font></p>
+<!--						<p align="right">	<span class="copyright" >&copy;<a href="https://www.sonatech.ac.in/"> Sona College Of Technology</a>.</span></p>-->
+					</footer>
+			</div>
+		</div>
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+		<style>
+			button{
+				background-color: transparent;
+				background: transparent;
+			}
+			:-ms-input-placeholder{
+				letter-spacing: 10cm;
+			}
+			:placeholder-shown{
+				letter-spacing: 0.04cm;
+				font-family: 'Times New Roman', Times, serif;
+				font-size: 0.7cm;
+			}
+			:-ms-input-placeholder{
+				font-size: 0.7cm;
+			}
+			input{
+				font-size: 0.625cm;
+			}
+			footer{
+				align-content: center;
+			}
+			
+		</style>
+	</body>
+</html>
